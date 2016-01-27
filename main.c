@@ -8,7 +8,7 @@ int main(void)
 {
     pid_t pid,ppid;
     int status;
-    printf("(1)-(2)-(3)\n     \\\n     (4)-(5)\n      \\\n      (6)\n");
+    printf("(1)-(2)-(3)\n     \\\n     (4)-(5)\n      \\\n      (6)\n"); //схема
     pid=fork();
     if(pid==0) {
        pid=getpid();
